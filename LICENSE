@@ -1,0 +1,99 @@
+Ubisoft Machine Learning License (Research-Only - Copyleft)
+
+This license governs the use, reproduction, and distribution of the Licensed
+Materials, including AI Models and associated source code for the sole purpose
+of scientific research. By accessing, downloading or using the Licensed
+Materials, you hereby accept to be bound by this [Ubisoft Machine Learning
+License (Research-Only - Copyleft)] agreement (hereinafter the “License”).
+
+1. Licensed Materials
+
+- AI Models
+- Source Code
+
+2. Definitions
+
+“Licensed Materials”: Refers to the AI Models and/or Source Code licensed under
+this agreement.
+"Source Code" means the preferred form of the work for making modifications to
+it corresponding to text written using human-readable programming language.
+"Object Code" means any non-source form of a work.
+“AI Model” means any machine learning based assembly or assemblies (including
+checkpoints), consisting of learnt weights, parameters (including optimizer
+states), corresponding to the model architecture as embodied in the Source Code.
+“Output” means the results of operating an AI Model as embodied in
+informational content resulting therefrom.
+“Derivative”: Any work derived from or based upon the Licensed Materials,
+including modifications.
+“Permitted Purpose”: Use for academic or research purposes only. Commercial
+use is strictly prohibited.
+“Distribution”: Any sharing of the Licensed Materials or Derivatives with third
+parties, including hosting as a service.
+“Licensor”: The rights holder or authorized entity granting this License.
+“You”: The individual or entity receiving and exercising rights under this
+License.
+
+3. Grant of Rights
+
+Subject to compliance with the terms of this License, You are granted a
+worldwide, royalty-free, non-exclusive License to use, study, reproduce,
+modify, and distribute the Licensed Materials and Derivatives solely for the
+Permitted Purpose. As between You and Licensor, Licensor claims no rights in
+the Outputs You generate using the AI Models used in accordance with the
+Permitted Purpose.
+
+4. Distribution of Licensed Materials and Derivatives
+
+Any Distribution of the Derivatives of the Licensed Materials, or the Licensed
+Materials shall be licensed under the same exact terms as this License.
+Redistribution shall include this License and retain all notices of author
+attribution and all modifications shall be clearly marked.
+
+5. Use Restrictions
+
+You shall not use the Licensed Materials or its Derivatives for:
+- any other purposes than the Permitted Purpose, including for commercial
+  purposes such as using the Licensed Materials in any activity intended for
+  commercial advantage or monetary compensation directly or indirectly;
+- weaponry, warfare, military applications, surveillance, or any activity that
+  may cause harm or violate human rights;
+- engaging or enabling fully automated decision-making that may adversely
+  impacts a natural person's legal rights;
+- providing medical advice or making clinical decisions;
+- generating content that promotes or incites hatred, violence, discrimination,
+  or harm based on race, ethnicity, religion, gender, sexual orientation, or
+  any other protected characteristic;
+- generating content that includes depictions of sexual abuse, sexual
+  violence, explicit pornography, or any form of non-consensual acts and/or
+  generating content that includes depictions of child nudity, child
+  pornography, or any form of child exploitation;
+
+6. Disclaimer of Warranty
+
+THE LICENSED MATERIALS IS PROVIDED "AS IS" AND “AS AVAILABLE” WITHOUT
+WARRANTIES OF ANY KIND WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION
+THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+NON-INFRINGEMENT, CORRECTNESS, ACCURACY, OR RELIABILITY. THE LICENSOR DISCLAIMS
+ALL LIABILITY FOR DAMAGES RESULTING FROM THE USE OR INABILITY TO USE THE
+LICENSED MATERIALS. THE USE OF THE LICENSED MATERIALS AND ANY OUTPUTS YOU MAY
+GENERATE SHALL BE AT YOUR OWN RISK.
+
+7. Termination
+
+This License terminates automatically if You violate any of its terms. Upon
+termination, You shall cease all use and distribution of the Licensed
+Materials and its Derivatives.
+
+8. Governing Law
+
+The validity of this Agreement and any of its terms and provisions, as well as
+the rights and duties of the parties hereunder, shall be governed, interpreted
+and enforced in accordance with the laws of France.
+
+9. Miscellaneous
+
+If any provision of this License is held to be invalid, illegal or
+unenforceable, the remaining provisions shall be unaffected thereby and remain
+valid as if such provision had not been set forth herein.
+
+Copyright (C) 2025 UBISOFT ENTERTAINMENT. All Rights Reserved.
