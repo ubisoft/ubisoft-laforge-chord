@@ -1,0 +1,8 @@
+huggingface_hub[hf_xet]
+diffusers
+transformers==4.57.1
+tokenizers==0.22.1
+typer
+omegaconf
+imageio
+tqdm

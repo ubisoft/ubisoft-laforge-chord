@@ -1,0 +1,29 @@
+model:
+  name: chord
+  roughness_step: 5.
+  metallic_step: 1.
+  # format: "OutputMapName": ConvInInput1_ConvInInput2_{0/1}
+  # 0/1 stands for using gt/pred image;
+  chain_type: chord
+  chain_library:
+    chord:
+      basecolor: render_0
+      normal: render_approxIrr_01
+      rou_met: render_approxRM_01
+  rgbx_prompts:
+    basecolor: Basecolor
+    normal: Normal
+    roughness: Roughness
+    metallic: Metallic
+    irradiance: Irradiance
+    rou_met: Roughness and Metallic
+  prior_light:
+    name: distant-light
+    direction: [-1.0, -1.0, 1.0]   # Top-left corner towards bottom right
+    color: [23.47, 21.31, 20.79]
+    power: 0.1                 
+  stable_diffusion: 
+    name: stable_diffusion
+    fp16: true
+    vae_padding: circular
+    version: 2.1
