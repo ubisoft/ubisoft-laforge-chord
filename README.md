@@ -6,6 +6,8 @@
 <a href="https://huggingface.co/spaces/Ubisoft/ubisoft-laforge-chord"><img src="https://img.shields.io/badge/🤗%20HuggingFace-Demo-blue.svg?style=flat-square" alt="Demo"></a>
 
 [Zhi Ying](https://orcid.org/0009-0008-8390-3366)\*, [Boxiang Rong](https://ribosome-rbx.github.io/)\*, [Jingyu Wang](https://ccetaw.github.io/), [Maoyuan Xu](https://ultraman-blazar.github.io/)
+
+<img src="assets/teaser.jpg" alt="teaser">
 </div>
 
 Official implementation of the paper "**Chord: Chain of Rendering Decomposition for PBR Material Estimation from Generated Texture Images**".
