@@ -41,7 +41,13 @@ Official implementation of the paper "**Chord: Chain of Rendering Decomposition 
     uv pip install -r requirements.txt
     ```
 
-3. (Optional) Install Gradio for running demo locally.
+3. Agree to the model's term from [here](https://huggingface.co/Ubisoft/ubisoft-laforge-chord), then log in:
+
+    ```
+    huggingface-cli login
+    ```
+
+4. (Optional) Install Gradio for running demo locally:
 
     ```
     uv pip install gradio
