@@ -15,6 +15,7 @@ Official implementation of the paper "**Chord: Chain of Rendering Decomposition 
 ## Setup environment
 
 1. Clone github repo:
+
     ```shell
     git clone https://github.com/ubisoft/ubisoft-laforge-chord
     cd ubisoft-laforge-chord
@@ -69,7 +70,8 @@ python demo_gradio.py
 
 ## License
 
-This project is released under the **Ubisoft Machine Learning License (Research-Only - Copyleft)**. See the full terms in the [LICENSE](LICENSE) file
+This project is released under the **Ubisoft Machine Learning License (Research-Only - Copyleft)**. See the full terms in the [LICENSE](LICENSE) file.
+
 ## Citation
 
 If you find our work useful, please consider citing:
