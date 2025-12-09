@@ -77,14 +77,20 @@ This project is released under the **Ubisoft Machine Learning License (Research-
 If you find our work useful, please consider citing:
 
 ```
-@misc{ying2025chord,
-    title={Chord: Chain of Rendering Decomposition for PBR Material Estimation from Generated Texture Images}, 
-    author={Zhi Ying and Boxiang Rong and Jingyu Wang and Maoyuan Xu},
-    year={2025},
-    eprint={2509.09952},
-    archivePrefix={arXiv},
-    primaryClass={cs.GR},
-    url={https://arxiv.org/abs/2509.09952}, 
+@inproceedings{ying2025chord,
+    author = {Ying, Zhi and Rong, Boxiang and Wang, Jingyu and Xu, Maoyuan},
+    title = {Chord: Chain of Rendering Decomposition for PBR Material Estimation from Generated Texture Images},
+    year = {2025},
+    isbn = {9798400721373},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3757377.3763848},
+    doi = {10.1145/3757377.3763848},
+    booktitle = {Proceedings of the SIGGRAPH Asia 2025 Conference Papers},
+    articleno = {164},
+    numpages = {11},
+    keywords = {Appearance Modeling, Material Generation, Texture Synthesis, SVBRDF, Image-conditional Diffusion Models},
+    series = {SA Conference Papers '25}
 }
 ```
 
