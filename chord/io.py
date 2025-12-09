@@ -3,6 +3,7 @@ import imageio.v3 as imageio
 import numpy as np
 import warnings
 import os
+import safetensors
 
 import torchvision.transforms.functional as F
 
@@ -78,3 +79,23 @@ def save_maps(path: str, maps: dict):
     for name, image in maps.items():
         out_img = create_img(image)
         out_img.save(os.path.join(path, name+".png"))
+
+def load_torch_file(ckpt, device=None):
+    if device is None:
+        device = torch.device("cpu")
+    if ckpt.lower().endswith(".safetensors") or ckpt.lower().endswith(".sft"):
+        with safetensors.safe_open(ckpt, framework="pt", device=device.type) as f:
+            state_dict = {}
+            for k in f.keys():
+                tensor = f.get_tensor(k)
+                state_dict[k] = tensor
+    else:
+        torch_args = {}
+        ckpt = torch.load(ckpt, map_location=device, weights_only=True, **torch_args)
+
+        if "state_dict" in ckpt:
+            state_dict = ckpt["state_dict"]
+        else:
+            state_dict = ckpt
+            
+    return state_dict

@@ -10,7 +10,7 @@ import tqdm
 from huggingface_hub import hf_hub_download
 
 from chord import ChordModel
-from chord.io import read_image, save_maps
+from chord.io import read_image, save_maps, load_torch_file
 
 app = typer.Typer(pretty_exceptions_show_locals=False)
 
@@ -35,10 +35,10 @@ def inference(
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     config = OmegaConf.load(config_path)
     model = ChordModel(config)
-    ckpt_path = hf_hub_download(repo_id="Ubisoft/ubisoft-laforge-chord", filename="chord_v1.ckpt")
+    ckpt_path = hf_hub_download(repo_id="Ubisoft/ubisoft-laforge-chord", filename="chord_v1.safetensors")
     print(f"[INFO] Loading model from: {ckpt_path}")
-    ckpt = torch.load(ckpt_path, map_location="cpu", weights_only=False)
-    model.load_state_dict(ckpt["state_dict"])
+    state_dict = load_torch_file(ckpt_path)
+    model.load_state_dict(state_dict)
     model.eval()
     model.to(device)
 
