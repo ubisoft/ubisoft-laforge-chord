@@ -4,6 +4,7 @@
 <a href="https://arxiv.org/abs/2509.09952"><img src="https://img.shields.io/badge/arXiv-2509.09952-B31B1B?logo=arxiv&logoColor=white&style=flat-square" alt="arXiv"></a>
 <a href="https://ubisoft-laforge.github.io/world/chord/"><img src="https://img.shields.io/badge/Project-Page-brightgreen?logo=ubisoft&logoColor=white&style=flat-square" alt="Project Page"></a>
 <a href="https://huggingface.co/spaces/ksangk/chord-demo"><img src="https://img.shields.io/badge/🤗%20HuggingFace-Demo-blue.svg?style=flat-square" alt="Demo"></a>
+<a href="https://github.com/ubisoft/ComfyUI-Chord"><img src="https://img.shields.io/badge/ComfyUI-Custom%20Node-yellow.svg?style=flat-square" alt="Custom Node"></a>
 
 [Zhi Ying](https://orcid.org/0009-0008-8390-3366)\*, [Boxiang Rong](https://ribosome-rbx.github.io/)\*, [Jingyu Wang](https://ccetaw.github.io/), [Maoyuan Xu](https://ultraman-blazar.github.io/)
 
